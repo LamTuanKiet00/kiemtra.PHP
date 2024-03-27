@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+th {
+    color: red; /* Màu chữ đỏ cho tiêu đề */
+}
+.pagination {
+    text-align: center;
+    margin-top: 10px;
+}
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    text-decoration: none;
+    color: #333333;
+    border-radius: 5px;
+}
+.pagination a.active {
+    background-color: #dddddd;
+}
+.pagination {
+    text-align: center;
+}
